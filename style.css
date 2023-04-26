@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgba(4, 3, 3, 0.8);
+  color: white;
+  font-family: inter;
+}
+
+nav {
+  padding: 10px 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 2%;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.header-left-container > h3 {
+  font-size: 1.1rem;
+  color: blue;
+  margin: 2% 0;
+}
+
+.header-left-container > P {
+  font-size: 0.6rem;
+}
+
+#modem {
+  height: 80vh;
+  width: 45vw;
+}
+
+.infos {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 2%;
+  background: black;
+  margin: 1% 1%;
+  border-radius: 5px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-container button {
+  background: rgb(80, 80, 234);
+  color: white;
+  border: none;
+  margin-bottom: 2%;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.infos-right {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 1.5%;
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-container img {
+  height: 50px;
+  width: 50px;
+}
