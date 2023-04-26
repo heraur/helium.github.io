@@ -9,6 +9,7 @@ body {
   background: rgba(4, 3, 3, 0.8);
   color: white;
   font-family: inter;
+  min-height: 100vh;
 }
 
 nav {
@@ -32,13 +33,18 @@ nav > ul {
   padding: 2% 2%;
 }
 
+.header-right {
+  width: 50%;
+}
+
 .header-left {
   display: flex;
   align-items: center;
+  width: 50%;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 .header-left-container > h3 {
@@ -53,7 +59,7 @@ h1 {
 
 #modem {
   height: 80vh;
-  width: 45vw;
+  width: 100%;
 }
 
 .infos {
